@@ -9,7 +9,7 @@ import IsLoading from "../layout/IsLoading";
 
 const UserdataSection = () => {
   const [isLoading, setIsLoading] = useState(true);
-
+  console.log(setIsLoading(true));
   useEffect(() => {
     matchType();
     division();
