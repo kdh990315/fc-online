@@ -18,12 +18,8 @@ const UserdataSection = () => {
       <Header></Header>
       <div className="userdata_wrap">
         <Search></Search>
-
-
-              <UserbasicData></UserbasicData>
-              <UsermatchData></UsermatchData>
-
-
+          <UserbasicData></UserbasicData>
+          <UsermatchData></UsermatchData>
       </div>
     </>
   )
