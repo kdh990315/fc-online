@@ -8,7 +8,7 @@ import Header from "../layout/Header";
 import IsLoading from "../layout/IsLoading";
 
 const UserdataSection = () => {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     matchType();

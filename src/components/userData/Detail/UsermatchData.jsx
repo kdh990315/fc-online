@@ -19,8 +19,6 @@ const UsermatchData = () => {
     fetchMatchData();
   }, [ouid]);
   
-  console.log(matchData);
-
   return (
       <ul className="match_container_wrap">
         { matchData.length > 0 ? (
