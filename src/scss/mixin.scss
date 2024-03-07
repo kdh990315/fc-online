@@ -1,0 +1,13 @@
+@mixin position-center-r {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin position-center-a {
+	position: a;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
