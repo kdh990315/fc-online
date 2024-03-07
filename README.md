@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+## fc-online 피파온라인 전적 검색 사이트
+<a href="https://fc-online-85987.web.app/">사이트 바로가기</a>https://fc-online-85987.web.app/
+### 프로젝트 개요
+낙시고는 낚시가 취미인 개발자가 자신의 취미를 웹페이지로 만들고자 시작한 프로젝트입니다.<br> 
+이 웹 애플리케이션은 낚시를 즐기는 사람들을 위한 커뮤니티 플랫폼으로서, 사용자들은 선박 등록과 예약을 편리하게 관리할 수 있습니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 기술 스택
+- 프론트앤드: react.js
+- API: 넥슨 open api
 
-## Available Scripts
+### 주요 기능
+- 피파온라인 전적 검색: 사용자는 플레이어의 닉네임을 검색해 게임 전적을 확인할 수 있습니다.
 
-In the project directory, you can run:
+  테스트용 닉네임:
+  - NickName: 곽망고
+  - NickName: 호날두
+  - NickName: 메시
 
-### `npm start`
+- 게임의 상세내용 확인: 플레이어가 완료한 게임의 상세 내용을 확인할 수 있습니다.
+- 
+  ex) 슈팅수, 유효슈팅 수, 플레이를 하면서 사용한 선수
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
