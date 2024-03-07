@@ -8,8 +8,6 @@ import Header from "../layout/Header";
 import IsLoading from "../layout/IsLoading";
 
 const UserdataSection = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  console.log(setIsLoading(true));
   useEffect(() => {
     matchType();
     division();
@@ -20,14 +18,12 @@ const UserdataSection = () => {
       <Header></Header>
       <div className="userdata_wrap">
         <Search></Search>
-          { isLoading ? (
-            <>
+
+
               <UserbasicData></UserbasicData>
               <UsermatchData></UsermatchData>
-            </>
-          ) : (
-            <IsLoading></IsLoading>
-          )}
+
+
       </div>
     </>
   )
